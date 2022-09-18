@@ -1,0 +1,1798 @@
+.mediaViewInfo {
+	--web-view-name: Undergraduate Template;
+	--web-view-id: Undergraduate_Template;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Undergraduate_Template;
+}
+
+#middle {  
+  display:none;
+}
+#middle1 {  
+  display:none;
+}
+#middle3 {  
+  display:none;
+}
+
+
+.newAwardRectangle {
+  transition-duration: 0.4s;
+}
+.newAwardRectangle:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 30px 30px 30px 30px;
+}
+.saveAwardRec {
+  transition-duration: 0.4s;
+}
+.saveAwardRec:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 30px 30px 30px 30px;
+}
+.calculateRec_ch {
+  transition-duration: 0.4s;
+}
+.calculateRec_ch:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 30px 30px 30px 30px;
+}
+.calculateRec {
+  transition-duration: 0.4s;
+}
+.calculateRec:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 30px 30px 30px 30px;
+}
+
+
+#inputs {  
+  font-size: 23px;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+	border-radius: 5px;
+    
+}
+#calc{
+    position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 42px;
+	left: 660px;
+	top: 882px;
+    cursor: pointer;
+}
+
+
+#right {  
+  display:none;
+}
+#right1 {  
+  display:none;
+}
+.btn:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+                        
+        }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Undergraduate_Template {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Undergraduate Template;
+	--web-view-id: Undergraduate_Template;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#loginTopRectangle {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.loginTopRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+}
+#imageNationalUniversity {
+	position: absolute;
+	width: 168px;
+	height: 149px;
+	left: 826px;
+	top: -2px;
+	overflow: visible;
+}
+#loginBottomRectangle {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.loginBottomRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 90px;
+	left: 0px;
+	top: 990px;
+}
+#Student_ID {
+	left: 22px;
+	top: 108px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#studentIDRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.studentIDRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 301.5px;
+	top: 108px;
+}
+#Loan_Period_Start_Date {
+	left: 22.5px;
+	top: 149px;
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#LpSdRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.LpSdRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 301.5px;
+	top: 149px;
+}
+#Loan_Period_End_Date {
+	left: 22.5px;
+	top: 190.5px;
+	position: absolute;
+	overflow: visible;
+	width: 244px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#LpEdRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.LpEdRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 301.5px;
+	top: 190px;
+}
+#n_st_Disbursement_Term {
+	left: 22px;
+	top: 232.5px;
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#firstDisbTermRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.firstDisbTermRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 303px;
+	top: 231.5px;
+}
+#calculateRec {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    cursor: pointer;
+}
+.calculateRec {
+	position: absolute;
+	overflow: visible;
+	width: 261px;
+	height: 67px;
+	left: 22px;
+	top: 867px;
+}
+#Calculate {
+	left: 90.25px;
+	top: 886.75px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+#costOfAttendanceRec {
+	fill: rgba(246,245,241,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.costOfAttendanceRec {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 210px;
+	left: 598px;
+	top: 187.25px;
+}
+#Cost_of_Attendance {
+	left: 637px;
+	top: 357.25px;
+	position: absolute;
+	overflow: visible;
+	width: 190px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#coaRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+     text-decoration: underline;
+}
+.coaRec {
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	height: 25px;
+	left: 925px;
+	top: 355.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+    
+}
+#Books {
+	left: 637px;
+	top: 201.25px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#booksRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.booksRec {
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	height: 25px;
+	left: 925.5px;
+	top: 199.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+}
+#Loan_Fee {
+	left: 637px;
+	top: 240.25px;
+	position: absolute;
+	overflow: visible;
+	width: 87px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#loanFeeRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.loanFeeRec {
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	height: 25px;
+	left: 925px;
+	top: 238.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+}
+#Living {
+	left: 637px;
+	top: 279.25px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#livingRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.livingRec {
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	height: 25px;
+	left: 925.5px;
+	top: 277.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+}
+
+
+#Tuition {
+	left: 637px;
+	top: 318.25px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#tuitionRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.tuitionRec {
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	height: 25px;
+	left: 925.5px;
+	top: 316.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+}
+#aggLimitRec {
+	fill: rgba(246,245,241,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.aggLimitRec {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 130px;
+	left: 598px;
+	top: 405.25px;
+}
+#SUB_Agg_Left {
+	left: 637px;
+	top: 458.25px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#subAggLimitRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.subAggLimitRec {
+	position: absolute;
+	overflow: visible;
+	width: 250px;
+	height: 25px;
+	left: 923px;
+	top: 455.25px;
+      font-family: Segoe UI;
+    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+}
+#awardRec {
+	fill: rgba(228,247,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.awardRec {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 122px;
+	left: 598px;
+	top: 728.25px;
+}
+#Subsidized_Loan_Award {
+	left: 610px;
+	top: 739.25px;
+	position: absolute;
+	overflow: visible;
+	width: 230px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#subAward {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.subAward {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 27px;
+	left: 926px;
+	top: 739.25px;
+}
+#Unsubsidized_Loan_Award {
+	left: 612px;
+	top: 777.25px;
+	position: absolute;
+	overflow: visible;
+	width: 255px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#unsubAward {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.unsubAward {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 26px;
+	left: 926px;
+	top: 778.25px;
+    
+}
+#noteRectangle {
+	
+	fill: rgba(248,248,248,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.noteRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 706px;
+	height: 200px;
+	left: 1192px;
+	top: 397.25px;
+    font-family: Segoe UI;
+		font-size: 23px;
+	color: darkblue;
+}
+#awardRecTwo {
+	fill: rgba(90,204,255,0.161);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.awardRecTwo {
+	position: absolute;
+	overflow: visible;
+	width: 711px;
+	height: 185px;
+	left: 1187px;
+	top: 192.25px;
+}
+#Subsidized_Loan {
+	left: 1197px;
+	top: 234.25px;
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#subIT {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.subIT {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1468px;
+	top: 231.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#Item_Type {
+	left: 1468.5px;
+	top: 197.75px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Disb_Plan {
+	left: 1609px;
+	top: 197.75px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Split_Code {
+	left: 1742.5px;
+	top: 197.75px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#subDP {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.subDP {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1609px;
+	top: 231.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#subSC {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.subSC {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1743px;
+	top: 231.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#Unsubsidized_Loan {
+	left: 1197px;
+	top: 281.25px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#unsubIT {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.unsubIT {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1469px;
+	top: 278.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#unsubDP {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.unsubDP {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1609px;
+	top: 277.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#unsubSC {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.unsubSC {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1743px;
+	top: 278.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#saveAwardRec {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    cursor: pointer;
+}
+.saveAwardRec {
+	position: absolute;
+	overflow: visible;
+	width: 261px;
+	height: 67px;
+	left: 1435px;
+	top: 611.25px;
+}
+#SaveAward {
+	left: 1504px;
+	top: 630.25px;
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+#newAwardRectangle {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    cursor: pointer;
+}
+.newAwardRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 261px;
+	height: 67px;
+	left: 1637px;
+	top: 867px;
+}
+#newAward {
+	left: 1706px;
+	top: 886px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+#n_nd_Disbursement_Term {
+	left: 22.5px;
+	top: 273.5px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#secondDisbTermRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.secondDisbTermRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 303px;
+	top: 273.5px;
+}
+#LP_-_CreditsWeeks {
+	left: 22px;
+	top: 314.5px;
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#creditsWeeksRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.creditsWeeksRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 302.5px;
+	top: 317px;
+}
+#Program {
+	left: 23.75px;
+	top: 445px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#programRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.programRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 304.25px;
+	top: 445px;
+}
+#C_-_Codes {
+	left: 23.25px;
+	top: 486px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#cCodesRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cCodesRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 303.75px;
+	top: 487.5px;
+}
+#ECMPN {
+	left: 23.75px;
+	top: 528.5px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#ecMpnRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.ecMpnRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 304.25px;
+	top: 528.5px;
+}
+#NSLDS_Subsidized {
+	left: 23.25px;
+	top: 569.5px;
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#nsldsSUB {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.nsldsSUB {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 304.25px;
+	top: 570px;
+}
+#NSLDS_Combined {
+	left: 23.25px;
+	top: 611px;
+	position: absolute;
+	overflow: visible;
+	width: 197px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#NSLDScombined {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.NSLDScombined {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 303.75px;
+	top: 611px;
+    
+}
+#Total_Credits_BUDGET {
+	left: 22.5px;
+	top: 734.5px;
+	position: absolute;
+	overflow: visible;
+	width: 266px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#tuitionRateRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.tuitionRateRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 302.5px;
+	top: 775.5px;
+}
+#totalCreditsRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.totalCreditsRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 303.5px;
+	top: 734.5px;
+}
+#resourceRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.resourceRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 301.5px;
+	top: 816.5px;
+}
+#Tuition_Rate_BUDGET {
+	left: 23.5px;
+	top: 775.5px;
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#All_Resources_BUDGET {
+	left: 22.5px;
+	top: 816.5px;
+	position: absolute;
+	overflow: visible;
+	width: 273px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#calculateRec_ch {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    cursor: pointer;
+}
+.calculateRec_ch {
+	position: absolute;
+	overflow: visible;
+	width: 261px;
+	height: 67px;
+	left: 715px;
+	top: 867px;
+}
+#CREDENTIAL {
+	left: 772px;
+	top: 882px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+#Combined_Agg_Left {
+	left: 637px;
+	top: 497.25px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#combinedAggLimitRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.combinedAggLimitRec {
+	position: absolute;
+	overflow: visible;
+	width: 250px;
+	height: 25px;
+	left: 923px;
+	top: 492.25px;
+      font-family: Segoe UI;
+    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+}
+#awardRec_cl {
+	fill: rgba(228,247,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.awardRec_cl {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 124px;
+	left: 598px;
+	top: 594.25px;
+}
+#Subsidized_Elgibility {
+	left: 612px;
+	top: 604.25px;
+	position: absolute;
+	overflow: visible;
+	width: 200px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Unsubsidized_Elgibility {
+	left: 611px;
+	top: 643.25px;
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Combined_Elgibility {
+	left: 612px;
+	top: 679.25px;
+	position: absolute;
+	overflow: visible;
+	width: 194px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#subEligiblity {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.subEligiblity {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 25px;
+	left: 925px;
+	top: 602px;
+     font-family: Segoe UI;
+    color: darkblue;
+    
+    font-style: italic;
+	font-size: 23px;
+    font-weight: bold;
+}
+#unsubEligiblity {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.unsubEligiblity {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 25px;
+	left: 925px;
+	top: 640.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    
+    font-style: italic;
+	font-size: 23px;
+    font-weight: bold;
+}
+#combinedEligiblity {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    text-decoration: underline;
+}
+.combinedEligiblity {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 25px;
+	left: 925px;
+	top: 679.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    
+    font-style: italic;
+	font-size: 23px;
+    font-weight: bold;
+}
+#IND_Student_YESNO {
+	left: 23px;
+	top: 358px;
+	position: absolute;
+	overflow: visible;
+	width: 254px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#INDDEPstudent {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.INDDEPstudent {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 303.5px;
+	top: 360.5px;
+}
+#Number_of_Units_Taken {
+	left: 23px;
+	top: 401.5px;
+	position: absolute;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#numberofUnitsTakenRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.numberofUnitsTakenRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 303.5px;
+	top: 404px;
+}
+#Prorated_EFC_BUDGET {
+	left: 23.75px;
+	top: 652px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#proratedEFCRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.proratedEFCRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 304.75px;
+	top: 652.5px;
+}
+#Primary_EFC_BUDGET {
+	left: 23.75px;
+	top: 693.5px;
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#primaryEFCrec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.primaryEFCrec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 304.25px;
+	top: 693.5px;
+}
+#aggLimitRec_c {
+	fill: rgba(228,247,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.aggLimitRec_c {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 41px;
+	left: 598px;
+	top: 544.25px;
+}
+#Pell_Elgibility_Primary_EFC {
+	left: 612px;
+	top: 551.25px;
+	position: absolute;
+	overflow: visible;
+	width: 271px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#pellEligRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.pellEligRec {
+	position: absolute;
+	overflow: visible;
+	width: 150x;
+	height: 25px;
+	left: 926px;
+	top: 548.25px;
+    font-family: Segoe UI;
+    color: darkblue;
+    
+    font-style: italic;
+	font-size: 23px;
+    font-weight: bold;
+}
+#Grade_Level {
+	left: 637px;
+	top: 419.25px;
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#gradeLevelRec {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.gradeLevelRec {
+	position: absolute;
+	overflow: visible;
+	width: 250px;
+	height: 25px;
+	left: 925px;
+	top: 416.25px;
+     font-family: Segoe UI;
+    color: darkblue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 23px;
+    
+}
+#Pell_Grant_Award {
+	left: 612px;
+	top: 815.25px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#pellAward {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.pellAward {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 25px;
+	left: 926px;
+	top: 817.25px;
+}
+#Pell_Grant {
+	left: 1197px;
+	top: 328.25px;
+	position: absolute;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#pellIT {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.pellIT {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1468px;
+	top: 325.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#pellDP {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.pellDP {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1609px;
+	top: 324.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#pellSC {
+	
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.pellSC {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1743px;
+	top: 325.25px;
+    font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}

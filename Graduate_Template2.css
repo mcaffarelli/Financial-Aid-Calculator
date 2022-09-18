@@ -1,0 +1,1505 @@
+.mediaViewInfo {
+	--web-view-name: Graduate Template;
+	--web-view-id: Graduate_Template;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Graduate_Template;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#calc{
+    position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 42px;
+	left: 650px;
+	top: 815px;
+    cursor: pointer;
+}
+
+
+
+#inputs {  
+  font-size: 23px;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+	border-radius: 5px;
+    
+}
+.calculateRec {
+  transition-duration: 0.4s;
+}
+.calculateRec:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 30px 30px 30px 30px;
+}
+.saveAwardRec {
+  transition-duration: 0.4s;
+}
+.saveAwardRec:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 10000px 10000px 10000px 10000px;
+}
+
+.awardButton {
+  transition-duration: 0.4s;
+}
+.awardButton:hover {
+  box-shadow: 0 30px 30px 0 rgba(0,0,0,0.24), 0 30px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 30px 30px 30px 30px;
+}
+
+
+.newAwardRectangle {
+  transition-duration: 0.4s;
+}
+.newAwardRectangle:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+   border-radius: 30px 30px 30px 30px;
+}
+#splitCodeTeach {
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+.btn:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+                        
+        }
+
+
+
+#middle {  
+  display:none;
+}
+#right {  
+  display:none;
+}
+#dispPlanTeach {
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#itemTypeTeach {
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#ituRec {
+	
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+    
+}
+
+#dprec {
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+#sprec {
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-size: 23px;
+	color: darkblue;
+}
+
+
+#booksTB {
+
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+	color: darkblue;
+   
+}
+#aggLimitTB {
+
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+	color: darkblue;
+   
+}
+#TeachEligTB {
+
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: bold;
+    font-style: italic;
+	font-size: 23px;
+	color: darkblue;
+   
+}
+#LF {
+
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+	color: darkblue;
+   
+}
+#COATB {
+
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: bold;
+    font-style: italic;
+	font-size: 23px;
+	color: darkblue;
+   text-decoration: underline;
+    
+}
+#TuitionTB {
+
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+	color: darkblue;
+   
+}
+
+#Note {
+
+	position: absolute;
+	overflow: visible;
+	width: 740px;
+	text-align: left;
+	font-family: Segoe UI;
+		font-size: 23px;
+	color: darkblue;
+   
+}
+#LivingTB {
+
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-weight: 15px;
+	font-weight: thin;
+    font-style: italic;
+	font-size: 23px;
+	color: darkblue;
+   
+}
+
+
+
+
+#Graduate_Template {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Graduate Template;
+	--web-view-id: Graduate_Template;
+	--web-scale-on-resize: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#loginTopRectangle {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.loginTopRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+#imageNationalUniversity {
+	position: absolute;
+	width: 249px;
+	height: 221px;
+	left: 836px;
+	top: 14.6px;
+	overflow: visible;
+}
+#loginBottomRectangle {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.ituRec {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1423px;
+	top: 284px;
+}
+.loginBottomRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 90px;
+	left: 0px;
+	top: 990px;
+}
+#Student_ID {
+	left: 39.75px;
+	top: 173.5px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#studentIDRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.studentIDRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 174px;
+}
+#Loan_Period_Start_Date {
+	left: 39.75px;
+	top: 213.5px;
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#LpSdRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.LpSdRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 214px;
+}
+#Loan_Period_End_Date {
+	left: 39.75px;
+	top: 253.5px;
+	position: absolute;
+	overflow: visible;
+	width: 244px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#LpEdRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.LpEdRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 253.5px;
+}
+#n_st_Disbursement_Term {
+	left: 39.75px;
+	top: 293px;
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#firstDisbTermRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.firstDisbTermRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 293.5px;
+}
+#n_nd_Disbursement_Term {
+	left: 39.75px;
+	top: 333px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#secondDisbTermRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.secondDisbTermRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 333.5px;
+}
+#LP_-_CreditsWeeks {
+	left: 39.75px;
+	top: 373px;
+	position: absolute;
+	overflow: visible;
+	width: 216px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#creditsWeeksRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.creditsWeeksRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 373.5px;
+}
+#C_-_Codes {
+	left: 39.75px;
+	top: 533px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#cCodesRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.cCodesRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 533.5px;
+}
+#Grad_Plus {
+	left: 39.75px;
+	top: 573px;
+	position: absolute;
+	overflow: visible;
+	width: 109px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#gradPlusRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.gradPlusRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 573.5px;
+}
+#Valid_ECMPN {
+	left: 39.75px;
+	top: 613px;
+	position: absolute;
+	overflow: visible;
+	width: 160px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#mpnRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.mpnRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 613.5px;
+}
+#Program {
+	left: 39.75px;
+	top: 413px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#programRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.programRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 413.5px;
+}
+#Plan_TEACH {
+	left: 39.75px;
+	top: 453px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#planRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.planRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 453.5px;
+}
+#Sub-Plan_TEACH {
+	left: 39.75px;
+	top: 493px;
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#subPlanRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.subPlanRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 493.5px;
+}
+#Total_Credits_BUDGET {
+	left: 39.75px;
+	top: 693px;
+	position: absolute;
+	overflow: visible;
+	width: 266px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#totalCreditsRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.totalCreditsRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 693.5px;
+}
+#Tuition_Rate_BUDGET {
+	left: 39.75px;
+	top: 733px;
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#tuitionRateRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.tuitionRateRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 733.5px;
+}
+#All_Resources_BUDGET {
+	left: 38px;
+	top: 773px;
+	position: absolute;
+	overflow: visible;
+	width: 273px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#resourceRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.resourceRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 314.5px;
+	top: 773.5px;
+}
+#NSLDS_Aggregate_Limit {
+	left: 39.75px;
+	top: 653px;
+	position: absolute;
+	overflow: visible;
+	width: 267px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#aggLimitRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.aggLimitRec {
+	position: absolute;
+	overflow: visible;
+	width: 257px;
+	height: 31px;
+	left: 316.25px;
+	top: 653.5px;
+}
+#calculateRec {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    cursor: pointer;
+}
+.calculateRec {
+	position: absolute;
+	overflow: visible;
+	width: 261px;
+	height: 67px;
+	left: 30px;
+	top: 844px;
+    cursor: pointer;
+
+}
+
+
+#CREDENTIAL {
+	left: 103px;
+	top: 864px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+    
+}
+#costOfAttendanceRec {
+	fill: rgba(246,245,241,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.costOfAttendanceRec {
+	position: absolute;
+	overflow: visible;
+	width: 442px;
+	height: 236px;
+	left: 610px;
+	top: 245px;
+}
+#Cost_of_Attendance {
+	left: 649px;
+	top: 422px;
+	position: absolute;
+	overflow: visible;
+	width: 218px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#coaRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.coaRec {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 31px;
+	left: 879px;
+	top: 422.5px;
+}
+#costOfAttendanceRec_bm {
+	fill: rgba(246,245,241,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.costOfAttendanceRec_bm {
+	position: absolute;
+	overflow: visible;
+	width: 442px;
+	height: 63px;
+	left: 610px;
+	top: 572px;
+}
+#Teach_Eligibility {
+	left: 651px;
+	top: 589px;
+	position: absolute;
+	overflow: visible;
+	width: 181px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#coaRec_bo {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.coaRec_bo {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 38px;
+	left: 881px;
+	top: 587px;
+}
+#Books {
+	left: 649px;
+	top: 266px;
+	position: absolute;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#booksRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+   
+}
+
+.booksRec {
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	height: 31px;
+	left: 879px;
+	top: 266.5px;
+}
+#Loan_Fee {
+	left: 649px;
+	top: 305px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#loanFeeRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.loanFeeRec {
+	position: absolute;
+	overflow: visible;
+	width: 128.5px;
+	height: 31px;
+	left: 879px;
+	top: 305.5px;
+}
+#Living {
+	left: 649px;
+	top: 344px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#livingRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.livingRec {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 31px;
+	left: 879px;
+	top: 344.5px;
+}
+#Tuition {
+	left: 649px;
+	top: 383px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#tuitionRec {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.tuitionRec {
+	position: absolute;
+	overflow: visible;
+	width: 128.5px;
+	height: 31px;
+	left: 879px;
+	top: 383.5px;
+}
+#aggLimitRec_bx {
+	fill: rgba(246,245,241,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.aggLimitRec_bx {
+	position: absolute;
+	overflow: visible;
+	width: 442px;
+	height: 70px;
+	left: 610px;
+	top: 490px;
+}
+#Agg_Limit_Left {
+	left: 651px;
+	top: 504px;
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+
+.aggLimitTB {
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	height: 38px;
+	left: 881px;
+	top: 501px;
+}
+#awardRec {
+	fill: rgba(90,204,255,0.161);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.awardRec {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 137px;
+	left: 610px;
+	top: 650px;
+}
+#Unsubsidized_Loan_Award {
+	left: 624px;
+	top: 681px;
+	position: absolute;
+	overflow: visible;
+	width: 294px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#unsubLAward {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.unsubLAward {
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	height: 40px;
+	left: 937px;
+	top: 681px;
+}
+#Teach_Grant_Award {
+	left: 624px;
+	top: 736px;
+	position: absolute;
+	overflow: visible;
+	width: 218px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+#teachAward {
+	opacity: 0.4;
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.teachAward {
+	position: absolute;
+	overflow: visible;
+	width: 143px;
+	height: 40px;
+	left: 937px;
+	top: 736px;
+}
+#awardButton {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+    cursor: pointer;
+}
+.awardButton {
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	height: 42px;
+	left: 707px;
+	top: 802px;
+    cursor: pointer;
+}
+#acceptaward {
+	left: 760px;
+	top: 820px;
+	position: absolute;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+   
+}
+#noteRectangle {
+	opacity: 0.3;
+	fill: rgba(248,248,248,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.noteRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 680px;
+	height: 169px;
+	left: 1161px;
+	top: 420px;
+}
+#awardRecTwo {
+	fill: rgba(90,204,255,0.161);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.awardRecTwo {
+	position: absolute;
+	overflow: visible;
+	width: 748px;
+	height: 145px;
+	left: 1142px;
+	top: 245px;
+}
+#Unsubsidized_Loan {
+	left: 1152px;
+	top: 284px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+
+#Item_Type {
+	left: 1423.5px;
+	top: 250.5px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Disb_Plan {
+	left: 1564px;
+	top: 250.5px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#Split_Code {
+	left: 1697.5px;
+	top: 250.5px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+
+.dprec {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1564px;
+	top: 284px;
+}
+
+.sprec {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1698px;
+	top: 284px;
+}
+#Teach_Grant {
+	left: 1152px;
+	top: 331px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	color: rgba(0,0,0,1);
+}
+
+.itemTypeTeach {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1424px;
+	top: 331px;
+}
+
+.dispPlanTeach {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1564px;
+	top: 330px;
+}
+
+.splitCodeTeach {
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	height: 40px;
+	left: 1698px;
+	top: 331px;
+}
+#saveAwardRec {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	
+    cursor: pointer;
+}
+.saveAwardRec {
+	position: absolute;
+	overflow: visible;
+	width: 250px;
+	height: 67px;
+	left: 1344px;
+	top: 611px;
+    cursor: pointer;
+}
+#SaveAward {
+	left: 1405px;
+	top: 630px;
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+#newAwardRectangle {
+	fill: rgba(26,54,96,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.newAwardRectangle {
+	position: absolute;
+	overflow: visible;
+	width: 261px;
+	height: 67px;
+	left: 1629px;
+	top: 844px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: StudentSelection;
+	cursor: pointer;
+}
+#newAward {
+	left: 1698px;
+	top: 863px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+    cursor: pointer;
+}
