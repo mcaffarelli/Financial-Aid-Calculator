@@ -4,7 +4,7 @@ I built this financial aid calculator software to support financial aid counselo
 You can Access the website here: http://fa-calculator-nu.com/
 
 
-You can Access a paper written on this software that will give a detailed description of the software and how it works here: [Financial Aid Awarding Calculator.pdf](https://github.com/mcaffarelli/Financial-Aid-Calculator/files/9594061/Financial.Aid.Awarding.Calculator.pdf)
+You can Access my paper written on this software that will give a detailed description of the software and how it works here: [Financial Aid Awarding Calculator.pdf](https://github.com/mcaffarelli/Financial-Aid-Calculator/files/9594061/Financial.Aid.Awarding.Calculator.pdf)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
